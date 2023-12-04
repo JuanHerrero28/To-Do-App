@@ -50,5 +50,5 @@ Existe la opción de eliminar una tarea de la lista haciendo clic en el ícono d
 ## Tecnologías Utilizadas
 La aplicación se ha desarrollado utilizando HTML, CSS y JavaScript para el frontend. La interacción con la API se realiza mediante fetch para consumir los endpoints proporcionados por todo-api.ctd.academy.
 
-
+https://giphy.com/gifs/F9plP0Yi8w2xQyEL1d
 
