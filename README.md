@@ -30,25 +30,25 @@ Los usuarios pueden ver sus tareas pendientes y tareas completadas.
 Pueden crear nuevas tareas, marcarlas como completadas y eliminarlas.
 
 ## CRUD de Tareas
-[] La funcionalidad de las tareas en la aplicación sigue la lógica del CRUD (Crear, Leer, Actualizar, Eliminar):
+ La funcionalidad de las tareas en la aplicación sigue la lógica del CRUD (Crear, Leer, Actualizar, Eliminar):
 
 ## Crear Tareas
 
 En la página principal de tareas (mis-tareas.html), los usuarios pueden crear nuevas tareas ingresando el nombre de la tarea en el campo correspondiente y haciendo clic en el botón "Crear tarea".
 ## Leer Tareas
-[] La lista de tareas se muestra en dos secciones: "Tareas Pendientes" y "Tareas Finalizadas".
-[] Las tareas pendientes se muestran con la opción de marcarlas como completadas.
-[] Las tareas completadas se muestran con la opción de volver a marcarlas como pendientes o eliminarlas.
+La lista de tareas se muestra en dos secciones: "Tareas Pendientes" y "Tareas Finalizadas".
+Las tareas pendientes se muestran con la opción de marcarlas como completadas.
+Las tareas completadas se muestran con la opción de volver a marcarlas como pendientes o eliminarlas.
 
 ## Actualizar Tareas
 
 Los usuarios pueden cambiar el estado de una tarea de "pendiente" a "completada" y viceversa haciendo clic en el ícono correspondiente.
 
 ## Eliminar Tareas
-[] Existe la opción de eliminar una tarea de la lista haciendo clic en el ícono de eliminación asociado a cada tarea.
+Existe la opción de eliminar una tarea de la lista haciendo clic en el ícono de eliminación asociado a cada tarea.
 
 ## Tecnologías Utilizadas
 La aplicación se ha desarrollado utilizando HTML, CSS y JavaScript para el frontend. La interacción con la API se realiza mediante fetch para consumir los endpoints proporcionados por todo-api.ctd.academy.
 
-## Funcionalidad
+
 
