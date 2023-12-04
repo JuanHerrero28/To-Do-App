@@ -8,29 +8,47 @@ Se trata de una clásica pero efectiva aplicación de tareas, en la cual podemos
 
 Volviendo a lo técnico, tenemos un frontend que se conecta con una API preparada específicamente para oficiar de nuestro backend. De esta manera tendremos la persistencia de los datos en una DB propia.
 
-Este proyecto es la oportunidad de repasar todo lo aprendido y poner en práctica las herramientas que tenemos gracias a Javascript. ¡A programar se ha dicho! 🚀
+Este proyecto es la oportunidad de repasar todo lo aprendido y poner en práctica las herramientas que tenemos gracias a Javascript. 
 
 ## API Docs
 Link con la documentación de los endpoints de la API y su funcionamiento:
 👉 https://ctd-todo-api.herokuapp.com/
     
+## Descripción
 
-## Requerimientos funcionales en pantalla de Login
-- [ ] FUNCIÓN 1: Escuchar el submit y preparar los datos para elenvío.
-- [ ] FUNCIÓN 2: Realizar la petición a la API para ingresar si los datos del usuario son correctos.
+La To Do App es una aplicación de gestión de tareas que permite a los usuarios crear, ver, marcar como completadas y eliminar tareas. La aplicación consta de tres páginas principales:
 
-## Requerimientos funcionales en pantalla de Signup
-- [ ] FUNCIÓN 1: Escuchar el submit y preparar los datos para elenvío.
-- [ ] FUNCIÓN 2: Realizar la petición a la API crear un nuevo usuario si completa todos los datos.
+1. Página de Inicio de Sesión (index.html)
+Esta página permite a los usuarios iniciar sesión en la aplicación.
+Los usuarios pueden ingresar su correo electrónico y contraseña para acceder a sus tareas.
+2. Página de Registro (signup.html)
+Aquí, los nuevos usuarios pueden registrarse para acceder a la aplicación.
+Se solicita al usuario su nombre, apellido, correo electrónico y contraseña para crear una cuenta.
+3. Página Principal de Tareas (mis-tareas.html)
+Esta página muestra la lista de tareas del usuario una vez que ha iniciado sesión.
+Los usuarios pueden ver sus tareas pendientes y tareas completadas.
+Pueden crear nuevas tareas, marcarlas como completadas y eliminarlas.
 
-## Requerimientos funcionales en pantalla de Tareas
-- [ ] FUNCIÓN 1: Darle funcionalidad al botón de "Cerrar sesión".
-- [ ] FUNCIÓN 2: Crear un función para obtener el nombre de usuario y presentarlo en pantalla.
-- [ ] FUNCIÓN 3: Implementar una función para obtener el listado de tareas.
-- [ ] FUNCIÓN 4: Lograr que funcione el botón de crear nueva tarea.
-- [ ] FUNCIÓN 5: Poder renderizar en pantalla las tareas según su estado, dentro del listado que corresponda.
-- [ ] FUNCIÓN 6: Cambiar una tarea pendiente a terminada y viceversa.
-- [ ] FUNCIÓN 7: Eliminar definitivamente una tarea.
+## CRUD de Tareas
+[] La funcionalidad de las tareas en la aplicación sigue la lógica del CRUD (Crear, Leer, Actualizar, Eliminar):
 
-## Requerimiento no funcional
-- [ ] Desarrollar las validaciones de utils.js para su implementación.
+## Crear Tareas
+
+En la página principal de tareas (mis-tareas.html), los usuarios pueden crear nuevas tareas ingresando el nombre de la tarea en el campo correspondiente y haciendo clic en el botón "Crear tarea".
+## Leer Tareas
+[] La lista de tareas se muestra en dos secciones: "Tareas Pendientes" y "Tareas Finalizadas".
+[] Las tareas pendientes se muestran con la opción de marcarlas como completadas.
+[] Las tareas completadas se muestran con la opción de volver a marcarlas como pendientes o eliminarlas.
+
+## Actualizar Tareas
+
+Los usuarios pueden cambiar el estado de una tarea de "pendiente" a "completada" y viceversa haciendo clic en el ícono correspondiente.
+
+## Eliminar Tareas
+[] Existe la opción de eliminar una tarea de la lista haciendo clic en el ícono de eliminación asociado a cada tarea.
+
+## Tecnologías Utilizadas
+La aplicación se ha desarrollado utilizando HTML, CSS y JavaScript para el frontend. La interacción con la API se realiza mediante fetch para consumir los endpoints proporcionados por todo-api.ctd.academy.
+
+## Funcionalidad
+
